@@ -2,6 +2,8 @@
 
 A helm repo proxy run on cloudflare worker.
 
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ciiiii/cloudflare-helm-proxy)
+
 ## Rules example
 - request based on `${cloudflare_worker_route}/${key}` will request to `${url}`.
 - text of `*/index.yaml` will be handled with replaces rules.
