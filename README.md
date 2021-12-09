@@ -1,5 +1,7 @@
 # cloudflare-helm-proxy
 
+![deploy](https://github.com/ciiiii/cloudflare-helm-proxy/actions/workflows/deploy.yml/badge.svg)
+
 A helm repo proxy run on cloudflare worker.
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ciiiii/cloudflare-helm-proxy)
