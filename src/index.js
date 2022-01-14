@@ -34,6 +34,12 @@ const routes = {
       'github.com': 'hub.fastgit.org',
     },
   },
+  self: {
+    url: 'https://ciiiii.github.io/helm-charts/',
+    replaces: {
+      'github.com': 'hub.fastgit.org',
+    },
+  },
 }
 
 async function handleRequest(event) {
