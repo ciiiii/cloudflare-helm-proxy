@@ -40,6 +40,12 @@ const routes = {
       'github.com': 'hub.fastgit.org',
     },
   },
+  argo: {
+    url: 'https://argoproj.github.io/argo-helm/',
+    replaces: {
+      'github.com': 'hub.fastgit.org',
+    },
+  },
 }
 
 async function handleRequest(event) {
