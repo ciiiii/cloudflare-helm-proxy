@@ -46,6 +46,10 @@ const routes = {
       'github.com': 'hub.fastgit.org',
     },
   },
+  cilium: {
+    url: 'https://helm.cilium.io/',
+    replaces: {},
+  },
 }
 
 async function handleRequest(event) {
